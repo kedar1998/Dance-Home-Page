@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.left{
+    height: 100vh;
+    flex-basis: 33%;
+    background-image: url('./images/pexels-rfstudio-3819572.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.logo{
+    height: 40px;
+    margin: 30px 40px;
+}
+
+.right{
+    flex-basis: 67%;
+}
+
+/****************   NAVBAR   *******************/
+
+
+.line{
+    height: 1.5px;
+    background: black;
+    width: 350px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.list{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list li{
+    list-style: none;
+}
+
+.list li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/**********************/
+
+
+.stroke{
+    color: white;
+	font-size: 160px;
+	text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				 -1px -1px 0 #000;
+    margin-left: 15px;
+}
+
+.main-div{
+    display: flex;
+    align-items: center;
+}
+
+.main-sub p{
+    font-size: 40px;
+    margin-left: 30px;
+    color: #8f8e8e;
+}
+
+.main-2{
+    font-size: 160px;
+    margin-left: 200px;
+    margin-top: -40px;
+}
+
+.btn{
+    font-size: 25px;
+    padding: 15px 40px;
+    background-color: #333333;
+    color: #fff;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+
+.logos{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    justify-content: center;
+    width: 30px;
+    position: absolute;
+    top: 80px;
+    right: 40px;
+}
+
+.social-logo{
+    height: 20px;
+}
+
+.timeline{
+    height: 1.5px;
+    background: black;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    transform: rotate(90deg);
+    margin-top: 100px;
+    margin-left: -100px;
+}
+
+.dots{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: absolute;
+    bottom: 65px;
+    left: 550px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dots .active{
+    height: 15px;
+    width: 15px;
+    background-color: #000;
+}
+
+.dots .active p{
+    color: #000;
+}
+
+.dot{
+    height: 12px;
+    width: 12px;
+    background-color: #828282;
+    border-radius: 10px;
+}
+
+.dot p{
+    margin-top: -5px;
+    margin-left: 30px;
+    width: 125px;
+    color: #828282;
+}
+
+.content-img{
+}
+
+.content-img img{
+    height: 200px;
+    width: 350px;
+    position: absolute;
+    right: 250px;
+}
+
+.arrow{
+    display: inline;
+    height: 200px;
+    margin-top: 50px;
+}
